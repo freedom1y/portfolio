@@ -10,6 +10,7 @@ var commonRouter = require('./routes/common');
 var aboutRouter = require('./routes/about');
 var portfolioRouter = require('./routes/portfolio');
 var worksRouter = require('./routes/works');
+var videoRouter = require('./routes/video');
 
 var app = express();
 
@@ -29,6 +30,7 @@ app.use('/common', commonRouter);
 app.use('/about', aboutRouter);
 app.use('/portfolio', portfolioRouter);
 app.use('/works', worksRouter);
+app.use('/video', videoRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
