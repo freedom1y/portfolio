@@ -264,6 +264,19 @@ footer small {
   border: 1px solid #cccccc;
 }
 
+#about .experience th {
+  width: 240px;
+  padding: 12px 0;
+  border: 1px solid #cccccc;
+  background-color: #f0f0f0;
+}
+
+#about .experience td {
+  width: 660px;
+  padding: 12px 0 12px 40px;
+  border: 1px solid #cccccc;
+}
+
 /* portfolio.htmlへの指定
 ----------------------------------------*/
 
@@ -311,7 +324,7 @@ footer small {
 ----------------------------------------*/
 
 #contact {
-  background-image: url(../images/bg-contact.jpg);
+  background-image: url(../images/amsterdam.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center top;
