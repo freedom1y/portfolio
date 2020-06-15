@@ -3,6 +3,7 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+var helmet = require('helmet');
 var favicon = require('serve-favicon');
 
 var indexRouter = require('./routes/index');
@@ -15,6 +16,7 @@ var videoRouter = require('./routes/video');
 var contactRouter = require('./routes/contact');
 
 var app = express();
+app.use(helmet());
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
