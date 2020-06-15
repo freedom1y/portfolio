@@ -231,7 +231,7 @@ footer small {
 ----------------------------------------*/
 
 #about {
-  background-image: url(../images/bg-about.jpg);
+  background-image: url(../images/bg-about.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center top;
@@ -281,7 +281,7 @@ footer small {
 ----------------------------------------*/
 
 #portfolio {
-  background-image: url(../images/bg-portfolio.jpg);
+  background-image: url(../images/bg-portfolio.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center top;
@@ -292,7 +292,7 @@ footer small {
 ----------------------------------------*/
 
 #photograph {
-  background-image: url(../images/bg-photograph.jpg);
+  background-image: url(../images/bg-works.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center top;
@@ -324,7 +324,7 @@ footer small {
 ----------------------------------------*/
 
 #contact {
-  background-image: url(../images/amsterdam.jpg);
+  background-image: url(../images/bg-contact.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center top;
