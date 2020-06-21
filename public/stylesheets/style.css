@@ -185,7 +185,7 @@ footer small {
   font-size: 12px;
 }
 
-/* index.htmlへの指定
+/* index.ejsへの指定
 ----------------------------------------*/
 
 #index {
@@ -227,7 +227,7 @@ footer small {
   background-color: transparent;
 }
 
-/* about.htmlへの指定
+/* about.ejsへの指定
 ----------------------------------------*/
 
 #about {
@@ -277,7 +277,7 @@ footer small {
   border: 1px solid #cccccc;
 }
 
-/* portfolio.htmlへの指定
+/* portfolio.ejsへの指定
 ----------------------------------------*/
 
 #portfolio {
@@ -288,10 +288,10 @@ footer small {
   background-size: 100% auto;
 }
 
-/* photograph.htmlへの指定
+/* works.ejsへの指定
 ----------------------------------------*/
 
-#photograph {
+#works {
   background-image: url(../images/bg-works.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -299,20 +299,20 @@ footer small {
   background-size: 100% auto;
 }
 
-#photograph .photograph-list li {
+#works .works-list li {
   float: left;
   margin: 0 20px 15px 0;
   list-style: none;
 }
 
-#photograph .photograph-list li:nth-child(3n) {
+#works .works-list li:nth-child(3n) {
   margin-right: 0;
 }
 
-/* video.htmlへの指定
+/* photo.ejsへの指定
 ----------------------------------------*/
 
-#video {
+#photo {
   background-image: url(../images/bg-video.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -320,7 +320,17 @@ footer small {
   background-size: 100% auto;
 }
 
-/* contact.htmlへの指定
+#photo .photo-list li {
+  float: left;
+  margin: 0 20px 15px 0;
+  list-style: none;
+}
+
+#photo .photo-list li:nth-child(3n) {
+  margin-right: 0;
+}
+
+/* contact.ejsへの指定
 ----------------------------------------*/
 
 #contact {
