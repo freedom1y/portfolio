@@ -12,7 +12,7 @@ var commonRouter = require('./routes/common');
 var aboutRouter = require('./routes/about');
 var portfolioRouter = require('./routes/portfolio');
 var worksRouter = require('./routes/works');
-var photoRouter = require('./routes/photo');
+var ramenRouter = require('./routes/ramen');
 var contactRouter = require('./routes/contact');
 
 var app = express();
@@ -35,7 +35,7 @@ app.use('/common', commonRouter);
 app.use('/about', aboutRouter);
 app.use('/portfolio', portfolioRouter);
 app.use('/works', worksRouter);
-app.use('/photo', photoRouter);
+app.use('/ramen', ramenRouter);
 app.use('/contact', contactRouter);
 
 // catch 404 and forward to error handler

@@ -288,6 +288,10 @@ footer small {
   background-size: 100% auto;
 }
 
+#portfolio .genre a {
+  font-weight: bold;
+}
+
 /* works.ejsへの指定
 ----------------------------------------*/
 
@@ -309,25 +313,29 @@ footer small {
   margin-right: 0;
 }
 
-/* photo.ejsへの指定
+/* ramen.ejsへの指定
 ----------------------------------------*/
 
-#photo {
-  background-image: url(../images/bg-photo.png);
+#ramen {
+  background-image: url(../images/bg-ramen.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center top;
   background-size: 100% auto;
 }
 
-#photo .photo-list li {
+#ramen .ramen-list li {
   float: left;
   margin: 0 20px 15px 0;
   list-style: none;
 }
 
-#photo .photo-list li:nth-child(3n) {
+#ramen .ramen-list li:nth-child(3n) {
   margin-right: 0;
+}
+
+#ramen .genre a {
+  font-weight: bold;
 }
 
 /* contact.ejsへの指定
