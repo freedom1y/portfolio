@@ -51,7 +51,7 @@
                 <section>
                     <h2 class="icon">Contact form</h2>
                     <div class="form">
-                        <form>
+                        <form method="POST">
                             <dl>
                                 <dt><span class="required">お名前</span></dt>
                                 <dd><input type="text" name="name" class="name" required></dd>
@@ -69,10 +69,15 @@
                                 <dt>メッセージ</dt>
                                 <dd><textarea name="message" class="message"></textarea></dd>
                             </dl>
-                            <button type="submit">送信</button>
+                            <input type="submit" class="button" value="送信">
                         </form>
                         <div class="attention">
-                            <p>※ 「<span class="required"></span>」の付いている項目は必須項目です。<br>※メッセージ送信後、48時間以内にご連絡いたします。</p>
+                            <% if (typeof msg !== 'undefined') { %>
+                                <p class="msg"><%= msg %></p>
+                            <% } %>
+                            <p>※「<span class="required"></span>」の付いている項目は必須項目です。<br>
+                                ※メッセージ送信後、48時間以内にご連絡いたします。
+                            </p>
                         </div>
                     </div>
                 </section>

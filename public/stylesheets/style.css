@@ -410,7 +410,7 @@ footer small {
   height: 150px;
 }
 
-#contact .form button {
+#contact .form .button {
   font-size: 20px;
   line-height: 50px;
   display: block;
@@ -436,4 +436,8 @@ footer small {
 
 #contact .form .attention {
   margin: 20px 0 0 165px;
+}
+
+#contact .form .msg {
+  font-size: 20px;
 }
