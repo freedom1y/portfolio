@@ -288,10 +288,6 @@ footer small {
   background-size: 100% auto;
 }
 
-#portfolio .genre a {
-  font-weight: bold;
-}
-
 /* works.ejsへの指定
 ----------------------------------------*/
 
@@ -311,6 +307,10 @@ footer small {
 
 #works .works-list li:nth-child(3n) {
   margin-right: 0;
+}
+
+#works .genre a {
+  font-weight: bold;
 }
 
 /* ramen.ejsへの指定
