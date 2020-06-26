@@ -15,7 +15,7 @@ router.post('/', function(req, res, next) {
   let email = "メールアドレス：" + req.body.email + "\n";
   let tel = "電話番号：" + req.body.tel + "\n";
   let type = "問合せ種別：" + req.body.type + "\n";
-  let message = "メッセージ：" + req.body.message + "\n";
+  let message = "メッセージ：" + req.body.message;
   let content = name + email + tel + type + message;
   console.log(content);
 
