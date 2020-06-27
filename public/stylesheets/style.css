@@ -251,6 +251,16 @@ footer small {
   float: right;
 }
 
+#about .skill li {
+  float: left;
+  margin: 0 20px 15px 0;
+  list-style: none;
+}
+
+#about .skill li:nth-child(8n) {
+  margin-right: 0;
+}
+
 #about .career th {
   width: 240px;
   padding: 12px 0;
