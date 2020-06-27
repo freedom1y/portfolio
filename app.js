@@ -9,7 +9,6 @@ var favicon = require('serve-favicon');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-var commonRouter = require('./routes/common');
 var aboutRouter = require('./routes/about');
 var portfolioRouter = require('./routes/portfolio');
 var worksRouter = require('./routes/works');
@@ -33,7 +32,6 @@ app.use(favicon(__dirname + '/public/images/favicon.ico'));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-app.use('/common', commonRouter);
 app.use('/about', aboutRouter);
 app.use('/portfolio', portfolioRouter);
 app.use('/works', worksRouter);
