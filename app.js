@@ -8,7 +8,6 @@ var bodyParser = require('body-parser');
 var favicon = require('serve-favicon');
 
 var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
 var aboutRouter = require('./routes/about');
 var portfolioRouter = require('./routes/portfolio');
 var worksRouter = require('./routes/works');
@@ -31,7 +30,6 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use(favicon(__dirname + '/public/images/favicon.ico'));
 
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
 app.use('/about', aboutRouter);
 app.use('/portfolio', portfolioRouter);
 app.use('/works', worksRouter);
